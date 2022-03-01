@@ -1,7 +1,40 @@
- 
-
 #header_img {
     width: 200px;
     margin: auto;
     display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
+}
+
+body{
+    background-color:#fae1dd;
+}
+
+h1{
+    text-align: center;
+    color:brown;
+}
+
+h2{
+    color:brown;
+}
+
+.introduzione, .footer{
+    background-color: #fec5bb;
+}
+
+h2 + p {
+    background-color: #ffb3b3;
+    font-style: italic;
+}
+
+span {
+    color: brown;
+}
+
+.footer{
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
 }
